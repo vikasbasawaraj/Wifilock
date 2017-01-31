@@ -36,7 +36,7 @@ public void  fullmode(View v){
     }
 
     public void  scanonly(View v){
-//lflflflfllfllfllfllfl
+//lflflflfllfllfllfllflcvxcvxcvxc
         lock = wifiManager.createWifiLock(WifiManager.WIFI_MODE_SCAN_ONLY, "LockTag");
         lock.acquire();
         Toast.makeText(this, "WIFI_MODE_SCAN_ONLY", Toast.LENGTH_SHORT).show();
